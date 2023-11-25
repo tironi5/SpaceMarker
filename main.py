@@ -12,7 +12,7 @@ pygame.init()
 
 tamanho = (900,520)
 tela =  pygame.display.set_mode( tamanho )
-pygame.display.set_caption("Space Marker")
+pygame.display.set_caption("SpaceMarker")
 clock = pygame.time.Clock()
 space = pygame.image.load("space.png")
 pygame.display.set_icon(space)
